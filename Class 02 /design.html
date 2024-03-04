@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Introduction to CSS</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <!-- RULES FOR WRITING CSS 
+
+    Inline CSS -> style = "property: value;"
+-->
+
+  <!-- TYPES OF STYLESHEET 
+    --1. Inline CSS
+    --2. Internal CSS
+    --3. External CSS
+-->
+
+  <!-- Duplicate Line 
+
+    alt + shift + ⬇️
+    
+  -->
+
+  <body>
+    <style>
+      /* h1 {
+        color: yellow;
+        background-color: black;
+      } */
+
+      .heading {
+        color: rgb(109, 217, 0);
+        background-color: rgb(32, 32, 37);
+        font-size: 20px;
+      }
+
+      #heading {
+        background-color: red;
+      }
+
+      .border {
+        border: 10px solid rgb(207, 250, 12);
+      }
+
+      .paragraph {
+        font-size: 40px;
+      }
+    </style>
+
+    <h1 class="heading border paragraph" id="heading">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit laborum,
+      praesentium itaque maxime distinctio soluta ab quas cupiditate nobis sit?
+    </h1>
+
+    <p class="border heading">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo voluptas id
+      modi ab, sint fugiat ad quisquam iusto architecto nihil blanditiis tempore
+      possimus hic magni! Maxime libero rerum ducimus voluptate.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nulla
+      dolores blanditiis atque tempore natus hic fuga mollitia nostrum
+      exercitationem.
+    </p>
+  </body>
+</html>

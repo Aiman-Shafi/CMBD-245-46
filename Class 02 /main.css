@@ -1,0 +1,24 @@
+.heading {
+  color: rgb(217, 0, 0);
+  background-color: blue;
+  font-size: 30px;
+}
+
+p {
+  color: red;
+  background-color: aqua;
+}
+
+.heading {
+  color: pink;
+}
+
+.heading {
+  color: black;
+  background-color: red;
+}
+
+#heading {
+  background-color: rgb(21, 231, 178);
+  color: black;
+}
