@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+
+body {
+  background-color: #ffffff;
+  color: #262222;
+  margin: 0;
+  font-family: "Madimi One", sans-serif;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-weight: 600;
+  font-family: "Madimi One", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  /* border-width: 10px;
+    border-style: solid;
+    border-color: rgb(155, 48, 48); */
+  /* border-radius: 10px; */
+
+  /* border-top: 5px solid rgb(33, 36, 195);
+    border-bottom: 5px solid rgb(33, 36, 195);
+    border-left: 5px solid rgb(195, 101, 33); */
+  /* border: 10px solid black; */
+  /* background-color: #b6dad1; */
+  /* margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    margin-right: 60px; */
+  /* margin: 100px 200px; top + bottom -> left + right */
+  /* margin: 100px 50px 40px 30px;  top right bottom left*/
+  /* margin: 30px 100px; */
+  /* padding: 30px 100px;
+    width: 600px;
+    height: 400px;
+    margin: auto; */
+}
+
+header {
+  text-align: center;
+  background-color: #326155;
+  padding: 50px 0;
+}
+
+header h1 {
+  color: #ffffff;
+  font-size: 48px;
+  margin-top: 37px;
+  text-transform: capitalize;
+}
+
+.blog-post-section {
+  padding: 50px 0;
+}
+
+.blog-post {
+  background-color: #d7f2ec;
+  width: 583px;
+  margin: auto;
+  padding: 42px;
+}
+
+.blog-post img {
+  width: 100%;
+}
+
+.blog-post h2 {
+  font-size: 36px;
+  margin-top: 36px;
+  margin-bottom: 19px;
+  color: #326155;
+}
+
+.blog-post p {
+  font-size: 16px;
+  margin-bottom: 26px;
+}
+
+.btn {
+  background-color: #326155;
+  color: white;
+  font-size: 24px;
+  border: none;
+  padding: 12px 0;
+  width: 100%;
+  font-family: "Madimi One", sans-serif;
+  /* text-align: center; */
+}
+
+footer {
+  background-color: #326155;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+}
