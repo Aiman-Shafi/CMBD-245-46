@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="appointment">
+        <div class="wrapper appointment-wrapper">
+          <div class="appointment-img">
+            <img
+              src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
+          </div>
+          <div class="appointment-form">
+            <form action="https://formspree.io/f/xkndvqpd" method="POST">
+              <h2>Book a Consultaion</h2>
+              <!-- Name  -->
+              <input
+                type="text"
+                placeholder="e.g John Ahmed"
+                name="your_name"
+              />
+
+              <!-- Email  -->
+              <input
+                type="text"
+                placeholder="e.g example@gmail.com"
+                name="your_email"
+              />
+
+              <!-- Message  -->
+              <textarea
+                name="your_message"
+                cols="30"
+                rows="10"
+                placeholder="Hello, I have issues with ....."
+              ></textarea>
+
+              <!-- Choose Gender  -->
+              <br />
+              <div class="gender-group">
+                <label for="gender" class="gender-label">Choose Gender</label>
+                <br />
+                <div class="gender">
+                  <label for="gender">Male</label>
+                  <input type="radio" name="gender" value="male" />
+                  <label for="gender">Female</label>
+                  <input type="radio" name="gender" value="female" />
+                </div>
+              </div>
+
+              <!-- Submit Button  -->
+              <input type="submit" value="Book My Call!" class="form-btn" />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

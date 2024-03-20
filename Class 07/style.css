@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(238, 255, 255);
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.appointment-form {
+  background-color: rgb(255, 255, 255);
+}
+
+.appointment h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0;
+  color: darkblue;
+}
+
+.appointment-form form {
+  padding: 40px;
+  border: 1px solid rgb(203, 203, 203);
+  border-radius: 8px;
+}
+
+.appointment-form input {
+  font-size: 20px;
+  width: 100%;
+  border: 2px solid darkblue;
+  border-radius: 8px;
+  padding: 14px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.appointment-form textarea {
+  font-family: "Poppins", sans-serif;
+  height: 200px;
+  font-size: 20px;
+  border: 2px solid darkblue;
+  border-radius: 8px;
+  border-radius: 8px;
+  padding: 14px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.gender-label {
+  font-size: 20px;
+}
+
+.gender {
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.gender input {
+  width: 30px;
+  height: 20px;
+}
+
+.form-btn {
+  border: 0px solid gray;
+  outline: none;
+}
+
+input.form-btn {
+  border: none;
+  background: darkblue;
+  color: white;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.appointment-img img {
+  border-radius: 8px;
+}
+
+@media (min-width: 700px) {
+  .appointment-wrapper {
+    display: flex;
+    /* align-items: center; */
+  }
+
+  .appointment-img img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .appointment-img img {
+    border-radius: 8px 0 0 8px;
+  }
+
+  .appointment-form form {
+    border-radius: 0 8px 8px 0;
+  }
+}
