@@ -10,13 +10,15 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <title>Responsive Web Layout</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Header  -->
     <header>
-      <div class="wrapper header-wrapper">
+      <div class="wrapper header-wrapper" data-aos="fade-down">
         <!-- Logo -->
         <div class="logo">
           <img
@@ -39,7 +41,7 @@
       <!-- Hero Section  -->
       <section class="hero">
         <div class="wrapper hero-wrapper">
-          <div class="hero-content">
+          <div class="hero-content" data-aos="fade-right">
             <h2>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
               assumenda.
@@ -53,7 +55,7 @@
             </p>
             <a href="#" class="btn">Learn More</a>
           </div>
-          <div class="hero-image">
+          <div class="hero-image" data-aos="fade-left">
             <img
               src="https://websitedemos.net/hope-02/wp-content/uploads/sites/1410/2023/10/6-home-688x1024.jpg"
               alt=""
@@ -67,7 +69,7 @@
         <div class="wrapper">
           <h2 class="service-header">Our Services</h2>
           <div class="services">
-            <div class="service">
+            <div class="service" data-aos="zoom-in">
               <img
                 src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/service-1.jpg"
                 alt=""
@@ -78,7 +80,7 @@
                 words so that you don't confuse people.
               </p>
             </div>
-            <div class="service">
+            <div class="service" data-aos="zoom-in">
               <img
                 src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/service-1.jpg"
                 alt=""
@@ -89,7 +91,7 @@
                 words so that you don't confuse people.
               </p>
             </div>
-            <div class="service">
+            <div class="service" data-aos="zoom-in">
               <img
                 src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/service-1.jpg"
                 alt=""
@@ -119,5 +121,11 @@
         </div>
       </section>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>

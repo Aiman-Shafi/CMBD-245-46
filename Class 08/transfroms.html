@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .container {
+        height: 500px;
+        background-color: beige;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .box {
+        background-color: rgb(179, 53, 53);
+        width: 300px;
+        color: white;
+        height: 300px;
+        transition: all 0.5s ease;
+      }
+
+      .box:hover {
+        transform: rotate(10deg);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background-color: rgb(0, 0, 0);
+        padding: 20px;
+      }
+    </style>
+
+    <div class="container">
+      <div class="box">
+        <h2 class="heading">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
+          quisquam?
+        </h2>
+      </div>
+    </div>
+  </body>
+</html>
