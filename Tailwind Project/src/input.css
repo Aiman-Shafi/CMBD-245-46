@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url("https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap"); */
+
+@font-face {
+  font-family: "Schibsted";
+  src: url("../Schibsted_Grotesk/SchibstedGrotesk-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+}
+
+.scroll-image-primary {
+  animation: scroll-horizontal 40s linear infinite;
+}
+
+@keyframes scroll-horizontal {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
